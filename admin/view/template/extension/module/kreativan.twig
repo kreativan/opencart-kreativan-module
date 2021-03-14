@@ -25,6 +25,7 @@
       </div>
       <div class="panel-body">
         <form action="{{ action }}" method="post" enctype="multipart/form-data" id="form-module" class="form-horizontal">
+
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-name">{{ entry_name }}</label>
             <div class="col-sm-10">
@@ -36,6 +37,12 @@
           </div>
 
           <!-- Featured Products -->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"></label>
+            <div class="col-sm-10">
+              <h4 class="form-control-static"><strong>{{ text_featured_headline }}</strong></h4>
+            </div>
+          </div>
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-product">
               <span data-toggle="tooltip" title="{{ text_featured_help }}">{{ text_featured_products }}</span>
@@ -64,6 +71,14 @@
             </div>
           </div>
           <!-- Featured Products END -->
+
+          <!-- Product Feed -->
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="input-name"></label>
+            <div class="col-sm-10">
+              <h4 class="form-control-static"><strong>{{ entry_headline }}</strong></h4>
+            </div>
+          </div>
 
           <div class="form-group">
             <label class="col-sm-2 control-label" for="input-limit">{{ entry_limit }}</label>
