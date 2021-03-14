@@ -1,2 +1,2 @@
-# opencart-kreativan-module
-OpenCart product display module blueprint
+### OpenCart product display module blueprint
+Module will display latest productas and manually selected featured products. This is just a blueprint for creating product display modules for opencart...
